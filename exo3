@@ -1,0 +1,11 @@
+
+INSERT INTO etudiants (nom, prenom, email) VALUES ('Dupont', 'Jean', 'jean.dupont@example.com');
+INSERT INTO etudiants (nom, prenom, email) VALUES ('Martin', 'Claire', 'claire.martin@example.com');
+INSERT INTO etudiants (nom, prenom, email) VALUES ('Lefevre', 'Paul', 'paul.lefevre@example.com');
+
+INSERT INTO cours (nom_cours) VALUES ('Mathematiques');
+INSERT INTO cours (nom_cours) VALUES ('Informatique');
+
+INSERT INTO inscriptions (id_etudiant, id_cours) VALUES (1, 1);
+INSERT INTO inscriptions (id_etudiant, id_cours) VALUES (2, 1);
+INSERT INTO inscriptions (id_etudiant, id_cours) VALUES (3, 2);

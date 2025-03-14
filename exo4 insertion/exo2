@@ -1,0 +1,2 @@
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails 
+(`nom_de_la_base`.`inscriptions`, CONSTRAINT `fk_inscriptions_etudiant` FOREIGN KEY (`id_etudiant`) REFERENCES `etudiants` (`id_etudiant`))

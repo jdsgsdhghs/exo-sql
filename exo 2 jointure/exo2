@@ -1,0 +1,4 @@
+SELECT c.nom_cours, e.nom, e.prenom
+FROM cours c
+LEFT JOIN inscriptions i ON c.id_cours = i.id_cours
+LEFT JOIN etudiants e ON i.id_etudiant = e.id_etudiant;

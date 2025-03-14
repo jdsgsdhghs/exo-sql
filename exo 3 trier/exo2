@@ -1,0 +1,2 @@
+SELECT * FROM cours
+ORDER BY id_cours DESC;
